@@ -5,42 +5,41 @@ import random
 
 def getAnswer(answerNumber):
     if answerNumber == 1:
-      print('Britney Spears')
+      print ('Britney Spears')
       input()
-      print('Britney Spears')
+      print ('Britney Spears')
       time.sleep(1)
-      print('Ooops I did it again.')
+      return 'Ooops I did it again.'
     elif answerNumber == 2:
-      print('Who')
+      print ('Who')
       input()
-      print('Stop owling around!')
+      return 'Stop owling around!'
     elif answerNumber == 3:
-      print('"It\'s actually just "The Doctor".')
+      print ('It\'s actually just "The Doctor".')
       input()
-      print('No, you idiot, it\'s just "The Doctor".')
+      return'No, you idiot, it\'s just "The Doctor".'
     elif answerNumber == 4:
-      print('I eat mop')
+      print ('I eat mop')
       input()
-      print('...')
+      print ('...')
       time.sleep(1)
-      print('That\'s pretty gross, dude.')
+      return 'That\'s pretty gross, dude.'
     elif answerNumber == 5:
-      print('"Mike Huckabee"')
+      print ('Mike Huckabee')
       input()
-      print('I forget the punchline but your mother\'s a whore')
+      return 'I forget the punchline but your mother\'s a whore'
     elif answerNumber == 6:
-      print('Doris')
+      print ('Doris')
       input()
-      print('Door is locked that\'s why I\'m knocking.')
+      return 'Door is locked that\'s why I\'m knocking.'
     elif answerNumber == 7:
-      print('Short-term memory loss')
+      print ('Short-term memory loss')
       input()
-      print('Knock knock')
+      return 'Knock knock'
     elif answerNumber == 8:
-      print('Boo!')
+      print ('Boo!')
       input()
-      print('Awww don\'t cry. It\'s only a joke.')
-     
+      return 'Awww don\'t cry. It\'s only a joke.'
   
   
 r = random.randint(1, 8)
