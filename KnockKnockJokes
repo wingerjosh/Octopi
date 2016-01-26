@@ -1,0 +1,24 @@
+import random
+def knockknock():
+  joke = random.randint(1,4)
+  print('Knock knock')
+  input()
+  if (joke == 1):
+    print('Lettuce')
+    input()
+    print('Lettuce in and we can tell you a knock knock joke')
+  elif joke == 2:
+    print('Dumbledore')
+    input()
+    print('Dumbledore dies at the end of Half-Blood Prince')
+  elif joke == 3:
+    print('Python')
+    input()
+    print('Hello World!')
+  elif joke == 4:
+    print('boo')
+    input()
+    print('Why are you crying? It\'s just a joke!')
+  else:
+    print('Joke is over, everyone go home.')
+knockknock()
