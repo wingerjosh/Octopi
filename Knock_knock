@@ -1,0 +1,49 @@
+print ('Knock knock')
+input()
+import random
+
+def getAnswer(answerNumber):
+    if answerNumber == 1:
+      print('Cow')
+      input()
+      print('Cowpie!')
+    elif answerNumber == 2:
+      print('Who')
+      input()
+      print('Stop owling around!')
+    elif answerNumber == 3:
+      print('"It\'s actually just "The Doctor.""')
+      input()
+      print('No, you idiot, it\'s just "The Doctor.')
+    elif answerNumber == 4:
+      print('I eat mop')
+      input()
+      print('...')
+      time.sleep(1)
+      print('Britney Spears')
+      input()
+      print('Knock knock')
+      time.sleep(2)
+      print('Oops I did it again.')
+    elif answerNumber == 5:
+      print('"Mike Huckabee"')
+      input()
+      print('I forget the punchline but your mother\'s a whore')
+    elif answerNumber == 6:
+      print('Doris')
+      input()
+      print('Door is locked that\'s why I\'m knocking.')
+    elif answerNumber == 7:
+      print('Short-term memory loss')
+      input()
+      print('Knock knock')
+    elif answerNumber == 8:
+      print('Boo!')
+      input()
+      print('Awww don\'t cry. It\'s only a joke.')
+     
+  
+  
+r = random.randint(1, 8)
+joke = getAnswer(r)
+print(joke)
