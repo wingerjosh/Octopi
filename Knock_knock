@@ -1,30 +1,29 @@
 print ('Knock knock')
 input()
+import time
 import random
 
 def getAnswer(answerNumber):
     if answerNumber == 1:
-      print('Cow')
+      print('Britney Spears')
       input()
-      print('Cowpie!')
+      print('Britney Spears')
+      time.sleep(1)
+      print('Ooops I did it again.')
     elif answerNumber == 2:
       print('Who')
       input()
       print('Stop owling around!')
     elif answerNumber == 3:
-      print('"It\'s actually just "The Doctor.""')
+      print('"It\'s actually just "The Doctor".')
       input()
-      print('No, you idiot, it\'s just "The Doctor.')
+      print('No, you idiot, it\'s just "The Doctor".')
     elif answerNumber == 4:
       print('I eat mop')
       input()
       print('...')
       time.sleep(1)
-      print('Britney Spears')
-      input()
-      print('Knock knock')
-      time.sleep(2)
-      print('Oops I did it again.')
+      print('That\'s pretty gross, dude.')
     elif answerNumber == 5:
       print('"Mike Huckabee"')
       input()
