@@ -1,0 +1,26 @@
+import random
+
+def knock_knock():
+    joke = random.randint(1,3)
+    print('Knock Knock')
+    input()  
+    if (joke == 1):
+        print('Banana')
+        input()
+        print('Banana')
+        input()
+        print('Knock knock!')
+        input()
+        print('Orange')
+        input()
+        print('Orange you glad, I didnt say banana!')
+    elif (joke == 2):             
+        print('Art')
+        input()
+        print('R2-D2')
+    elif (joke == 3):
+        print(' Yah.')
+        input()
+        print('Nooo! Thanks I use Google.')             
+
+knock_knock()  
